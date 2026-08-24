@@ -1,0 +1,12 @@
+# Build / local
+build/
+*.pyc
+
+# Editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Runtime
+qtwebengine-cache/

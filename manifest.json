@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ardfard.ytmusic-launcher",
+  "name": "YouTube Music",
+  "version": "3.0.0",
+  "author": "ardfard",
+  "license": "MIT",
+  "description": "YouTube Music in an anchored bar popup. Left-click shows/hides a dedicated app window (chromium --app); unfocus hides it but audio keeps playing (separate process). Right-click opens in the default browser.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "YouTube Music",
+    "description": "YouTube Music popup (external app window, audio survives close)",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
